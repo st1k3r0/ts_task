@@ -24,7 +24,7 @@ function canVote(age: number): boolean {
 
 
 
-function sumArray(arr: number[]): number {
+function sumArray(arr: number[]): number[] {
   return arr.map((sum, el) => sum + el, 0)
 }
 
